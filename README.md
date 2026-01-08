@@ -22,6 +22,19 @@ El objetivo principal no es solo el análisis de datos, sino la **automatizació
 
 ## 📋 Prerrequisitos e Instalación
 
+> 💡 **Recomendación:** Para evitar conflictos con las versiones de librerías de tu sistema operativo o de otros proyectos, se recomienda encarecidamente utilizar un **entorno virtual**.
+
+1.  Crear y activar el entorno virtual:
+    * **Windows:**
+        ```bash
+        python -m venv venv
+        .\venv\Scripts\activate
+        ```
+    * **Mac/Linux:**
+        ```bash
+        python3 -m venv venv
+        source venv/bin/activate
+        ```
 1.  Clonar el repositorio:
     ```bash
     git clone [https://github.com/TU_USUARIO/pc1-etl-wine-quality.git](https://github.com/TU_USUARIO/pc1-etl-wine-quality.git)
